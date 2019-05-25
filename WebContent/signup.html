@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Sign up</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+								    <a href="index.html" class="logo"><strong>Na-JiHyun's Homepage</strong> by 웹기반소프트웨어 개발</a>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<center><h1>Sign Up Now!</h1></center>
+                    <span class="image fit"><img src="images/experience.jpg" alt="image" /></span>
+									</header>
+
+									<!-- Content -->
+
+										<div class="row gtr-200">
+											<div class="col-6 col-12-medium">
+
+												<!-- Form -->
+
+													<form action="login.html">
+														<div class="row gtr-uniform">
+                              <div class="col-6 col-12-xsmall">
+                                <br><br>ID<input type="text" name="name" id="name" value="" placeholder="Enter Your ID" /><br>
+                              </div>
+                              <div class="col-6 col-12-xsmall">
+                                <br><br>Password<input type="password" name="password" id="password" value="" placeholder="Enter Your password" /><br>
+                              </div>
+															<div class="col-6 col-12">
+																Name<input type="text" name="name" id="name" value="" placeholder="Enter Your name" /><br>
+															</div>
+															<div class="col-6 col-12">
+																Email<input type="email" name="email" id="email" value="" placeholder="Enter Email" /><br>
+															</div>
+															<div class="col-12">
+                                Country
+																<select name="category" id="category">
+																	<option value="">- Country -</option>
+																	<option value="Korea">Korea</option>
+																	<option value="USA">USA</option>
+																	<option value="UK">UK</option>
+                                  <option value="UK">etc</option>
+																</select>
+															</div>
+															<!-- Break -->
+                              <!-- Break -->
+                              <div class="col-4 col-12-small">
+                                <input type="radio" id="priority-low" name="priority" checked>
+                                <label for="demo-priority-low">female</label>
+                              </div>
+                              <div class="col-4 col-12-male">
+                                <input type="radio" id="priority-normal" name="priority">
+                                <label for="demo-priority-normal">male</label>
+                              </div>
+                              <div class="col-4 col-12-male">
+                                <input type="radio" id="priority-small" name="priority">
+                                <label for="priority-small">none</label>
+                              </div>
+															<div class="col-12">
+																<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+															</div>
+															<!-- Break -->
+															<div class="col-12">
+																<ul class="actions">
+																	<li><input type="submit" value="Submit" class="primary" onclick="signup_click();" />
+                                    <script>
+                                        function signup_click() {
+                                           alert("회원가입 성공!");
+                                         }
+                                    </script></li>
+																	<li><input type="reset" value="Reset" /></li>
+																</ul>
+															</div>
+														</div>
+													</form>
+
+
+											</div>
+										</div>
+
+								</section>
+
+						</div>
+					</div>
+
+          <!-- Sidebar -->
+            <div id="sidebar">
+              <div class="inner">
+
+                <!-- Search -->
+                  <section id="search" class="alt">
+                    <form method="post" action="#">
+                      <input type="text" name="query" id="query" placeholder="Search" />
+                    </form>
+                  </section>
+
+                <!-- Menu -->
+                  <nav id="menu">
+                    <header class="major">
+                      <h2>Menu</h2>
+                    </header>
+                    <ul>
+                      <li><a href="index.html">Homepage</a></li>
+                      <li>
+                        <span class="opener">About ME</span>
+                        <ul>
+                          <li><a href="info.html">Personal Info</a></li>
+                          <li><a href="experience.html">Experience</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="post.html">Post</a></li>
+                      <li><a href="board.html">Visitor Book</a></li>
+                    </ul>
+                  </nav>
+
+                <!-- Section -->
+                  <section>
+                    <header class="major">
+                      <h2>Get in touch</h2>
+                    </header>
+                    <p>Please contact me if you have any questions.</p>
+                    <ul class="contact">
+                      <li class="fa-envelope-o"><a href="#">jihyun.dev@gmail.com</a></li>
+                      <li class="fa-phone">010-9491-2774</li>
+                      <li class="fa-home">청주시 흥덕구 가경동</li>
+                    </ul>
+                  </section>
+
+                <!-- Footer -->
+                  <footer id="footer">
+                    <p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+                  </footer>
+                </div>
+              </div>
+
+          </div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

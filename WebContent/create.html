@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Visitor Board</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+								    <a href="index.html" class="logo"><strong>Na-JiHyun's Homepage</strong> by 웹기반소프트웨어 개발</a>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<center><h1>Visitor Board</h1></center>
+									</header>
+
+									<!-- Content -->
+										<span class="image fit"><img src="images/experience.jpg" alt="image" /></span>
+
+									<!-- Elements -->
+										<div class="row gtr-200">
+											<div class="row gtr-uniform">
+
+												<!-- Form -->
+										<form action="board.html"><br><br>
+                        <center><p>자유롭게 게시글을 남겨주세요.</p></center>
+
+                          <section>
+                            <div class="col-6 col-12-xsmall">
+                              Name <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+                            </div>
+
+                            <div class="col-6 col-12-xsmall">
+                              Email <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+                            </div>
+
+                            <div class="col-12">
+                              Message <textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea><br><br>
+                            </div>
+                          </section>
+
+                          <div class="col-12">
+                            <ul class="actions">
+                              <li><input type="submit" value="Create" class="primary" onclick="create_click();" />
+                                <script>
+                                    function create_click() {
+                                       alert("게시글 작성 성공!");
+                                     }
+                                </script></li>
+                              <li><input type="reset" value="Reset" /></li>
+                            </ul>
+                          </div>
+
+                      </form>
+											</div>
+										</div>
+
+								</section>
+
+						</div>
+					</div>
+
+          <!-- Sidebar -->
+            <div id="sidebar">
+              <div class="inner">
+
+                <!-- Search -->
+                  <section id="search" class="alt">
+                    <form method="post" action="#">
+                      <input type="text" name="query" id="query" placeholder="Search" />
+                    </form>
+                  </section>
+
+                <!-- Menu -->
+                  <nav id="menu">
+                    <header class="major">
+                      <h2>Menu</h2>
+                    </header>
+                    <ul>
+                      <li><a href="index.html">Homepage</a></li>
+                      <li>
+                        <span class="opener">About ME</span>
+                        <ul>
+                          <li><a href="#">Education</a></li>
+                          <li><a href="#">Experience</a></li>
+                          <li><a href="#">Personal Info</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="generic.html">Post</a></li>
+                      <li><a href="generic.html">Visitor Book</a></li>
+                      <li><a href="generic.html">Generic</a></li>
+                      <li><a href="elements.html">Elements</a></li>
+                    </ul>
+                  </nav>
+
+                <!-- Section -->
+                  <section>
+                    <header class="major">
+                      <h2>Get in touch</h2>
+                    </header>
+                    <p>Please contact me if you have any questions.</p>
+                    <ul class="contact">
+                      <li class="fa-envelope-o"><a href="#">jihyun.dev@gmail.com</a></li>
+                      <li class="fa-phone">010-9491-2774</li>
+                      <li class="fa-home">청주시 흥덕구 가경동</li>
+                    </ul>
+                  </section>
+
+                <!-- Footer -->
+                  <footer id="footer">
+                    <p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+                  </footer>
+                </div>
+              </div>
+
+          </div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
